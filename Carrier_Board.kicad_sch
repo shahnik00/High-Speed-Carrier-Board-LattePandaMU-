@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3800e2ee-0692-4645-8143-10fd3578fa9c")
+	(paper "A4")
+	(title_block
+		(title "LattePanda High-speed Carrier Board")
+		(date "2026-09-11")
+		(rev "1")
+		(company "I love KiCAD inc.")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
