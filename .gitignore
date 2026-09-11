@@ -1,0 +1,19 @@
+# KiCad temporary and backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*.lock
+
+# KiCad caches
+fp-info-cache
+
+# Gerber and manufacturing files
+*.gbr
+*.drl
+*.pos
+*.zip
