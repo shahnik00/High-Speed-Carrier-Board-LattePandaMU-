@@ -733,6 +733,42 @@
     [
       "3800e2ee-0692-4645-8143-10fd3578fa9c",
       "Root"
+    ],
+    [
+      "61223765-727a-47de-ae92-d0ef6c306567",
+      "Latte_PandaMU"
+    ],
+    [
+      "acae2808-0785-47a5-82ee-45b1bca85a3e",
+      "PWR_supply"
+    ],
+    [
+      "e1f9d95d-0fcf-4f51-ab6b-17f1c0862f64",
+      "Fan"
+    ],
+    [
+      "c963d31a-858e-4f42-978e-56fdb3b2abce",
+      "GPIO"
+    ],
+    [
+      "ee99f584-12a8-4b53-bbc4-573b9b8a9b8d",
+      "PCIE x4"
+    ],
+    [
+      "8bcba615-dadf-4562-9297-63e9a74afffc",
+      "Gagabit Eithernet"
+    ],
+    [
+      "02d3aa09-5a36-4b2b-895c-b46103dc407d",
+      "USB 2.0 & 3.0"
+    ],
+    [
+      "e3b45ecb-fbc9-4b3d-80c0-2f79fcda28f1",
+      "HDMI"
+    ],
+    [
+      "90a9f61f-dd65-4420-9f70-6ceacf873cda",
+      "m.2 M Key"
     ]
   ],
   "text_variables": {}
