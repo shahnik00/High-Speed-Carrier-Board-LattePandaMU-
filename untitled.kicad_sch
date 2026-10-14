@@ -6468,6 +6468,16 @@
 		)
 		(uuid "4435ca64-ed06-4800-87c5-e9351f1d67b6")
 	)
+	(text "TP7 to pull low if needed"
+		(exclude_from_sim no)
+		(at 327.152 263.652 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5cfc4ba0-b782-4341-adfd-cb99eb1571a9")
+	)
 	(text "Lite Carrier has no second BIOS ROM\n~{BIOS_SEL} pull up to 3.3V to select ROM on LattePanda Mu"
 		(exclude_from_sim no)
 		(at 348.234 264.414 0)
