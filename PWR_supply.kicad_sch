@@ -4291,7 +4291,7 @@
 	)
 	(text "LattePanda Mu has integrated pull-up resistors already"
 		(exclude_from_sim no)
-		(at 320.04 322.58 0)
+		(at 273.812 327.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5633,16 +5633,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 323.85) (xy 278.13 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c0067f-ce93-4cb2-a95f-5c8150adcc95")
-	)
-	(wire
-		(pts
 			(xy 234.95 297.18) (xy 234.95 298.45)
 		)
 		(stroke
@@ -5920,16 +5910,6 @@
 			(type default)
 		)
 		(uuid "89b3b52c-92f2-489b-93c2-288e5f85bbbb")
-	)
-	(wire
-		(pts
-			(xy 316.23 322.58) (xy 316.23 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8daa3e-793d-4215-ba4a-8c50a668ed10")
 	)
 	(wire
 		(pts
@@ -9470,72 +9450,6 @@
 			(project ""
 				(path "/3800e2ee-0692-4645-8143-10fd3578fa9c/acae2808-0785-47a5-82ee-45b1bca85a3e"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 316.23 322.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "530b747f-5fbf-4354-bd2b-33f27be2cf8d")
-		(property "Reference" "#PWR097"
-			(at 316.23 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 316.23 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15a5f678-51f3-4797-8492-efeab455977c")
-		)
-		(instances
-			(project "Carrier_Board"
-				(path "/3800e2ee-0692-4645-8143-10fd3578fa9c/acae2808-0785-47a5-82ee-45b1bca85a3e"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -13661,72 +13575,6 @@
 			(project "Carrier_Board"
 				(path "/3800e2ee-0692-4645-8143-10fd3578fa9c/acae2808-0785-47a5-82ee-45b1bca85a3e"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 278.13 323.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1bd6158-5431-4bd9-a230-71e6ad0206f9")
-		(property "Reference" "#PWR088"
-			(at 278.13 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 278.13 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 278.13 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17128c43-2f6e-4bf2-9365-f78556a01354")
-		)
-		(instances
-			(project "Carrier_Board"
-				(path "/3800e2ee-0692-4645-8143-10fd3578fa9c/acae2808-0785-47a5-82ee-45b1bca85a3e"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)

@@ -322,6 +322,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 250.19) (xy 212.09 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2f25bc-d6fc-43ce-ac4b-8e53bac60fa7")
+	)
+	(wire
+		(pts
 			(xy 185.42 224.79) (xy 212.09 224.79)
 		)
 		(stroke
@@ -329,6 +339,16 @@
 			(type default)
 		)
 		(uuid "9bb7326b-1f46-4a8e-ba07-fa98bc387960")
+	)
+	(wire
+		(pts
+			(xy 185.42 245.11) (xy 212.09 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e75642-a90d-46f9-85ac-82c92ca1f718")
 	)
 	(wire
 		(pts
@@ -1197,23 +1217,23 @@
 			)
 		)
 		(pin "FAN_1_PWM" output
-			(at 121.285 146.685 180)
+			(at 185.42 245.11 0)
 			(uuid "b7ec9c72-2e8a-4f09-b790-167b0ac0e4df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "FAN_1_TAC" input
-			(at 121.285 149.225 180)
+			(at 185.42 250.19 0)
 			(uuid "326c1175-3f08-4968-97b4-b245416db70f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPP_D0" bidirectional
@@ -2213,8 +2233,8 @@
 		)
 	)
 	(sheet
-		(at 491.49 245.11)
-		(size 39.37 31.75)
+		(at 212.09 242.57)
+		(size 27.94 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2229,7 +2249,7 @@
 		)
 		(uuid "e1f9d95d-0fcf-4f51-ab6b-17f1c0862f64")
 		(property "Sheetname" "Fan"
-			(at 491.49 244.3984 0)
+			(at 212.09 241.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,12 +2258,32 @@
 			)
 		)
 		(property "Sheetfile" "Fan.kicad_sch"
-			(at 491.49 277.4446 0)
+			(at 212.09 254.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FAN_1_PWM" input
+			(at 212.09 245.11 180)
+			(uuid "6910e05e-8c4d-49dc-8961-2c86a7bafdc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_1_TAC" output
+			(at 212.09 250.19 180)
+			(uuid "9a39a41f-0a96-4ac4-8617-2b06325f5cd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
